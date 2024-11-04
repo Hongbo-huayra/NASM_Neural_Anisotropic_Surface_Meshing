@@ -1,0 +1,51 @@
+ori_obj_ext: "_sf_norm.obj"
+hd_obj_ext: "_emb.obj"
+augment:
+  [
+    "flipx",
+    "flipy",
+    "flipz",
+    "rot_x",
+    "rot_xn",
+    "rot_y",
+    "rot_yn",
+    "rot_z",
+    "rot_zn",
+  ]
+augment_ext:
+  {
+    "flipx": "_norm_flipx.obj",
+    "flipy": "_norm_flipy.obj",
+    "flipz": "_norm_flipz.obj",
+    "rot_x": "_norm_rx.obj",
+    "rot_xn": "_norm_rxn.obj",
+    "rot_y": "_norm_ry.obj",
+    "rot_yn": "_norm_ryn.obj",
+    "rot_z": "_norm_rz.obj",
+    "rot_zn": "_norm_rzn.obj",
+  }
+augment_gt_ext:
+  {
+    "flipx": "_flipx_emb.obj",
+    "flipy": "_flipy_emb.obj",
+    "flipz": "_flipz_emb.obj",
+    "rot_x": "_rx_emb.obj",
+    "rot_xn": "_rxn_emb.obj",
+    "rot_y": "_ry_emb.obj",
+    "rot_yn": "_ryn_emb.obj",
+    "rot_z": "_rz_emb.obj",
+    "rot_zn": "_rzn_emb.obj",
+  }
+m_ext: "_smt_cur.csv"
+m_augment_ext:
+  {
+    "flipx": "_flipx_smt_cur.csv",
+    "flipy": "_flipy_smt_cur.csv",
+    "flipz": "_flipz_smt_cur.csv",
+    "rot_x": "_rx_smt_cur.csv",
+    "rot_xn": "_rxn_smt_cur.csv",
+    "rot_y": "_ry_smt_cur.csv",
+    "rot_yn": "_ryn_smt_cur.csv",
+    "rot_z": "_rz_smt_cur.csv",
+    "rot_zn": "_rzn_smt_cur.csv",
+  }
